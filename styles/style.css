@@ -100,8 +100,66 @@
 
 /* STandard Curriculum Style */
 
-.arow-div{
-    display: flex;
+main{
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.standard-header{
+  justify-content: center;
+  font-size: 2.9rem;
+}
+
+.curriculum-cart-details1{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+}
+
+.curriculum-cart-details2{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+  margin: 0 28px;
+
+}
+
+.curriculum-cart-details3{
+
+  border: 1px solid blue;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 18px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(242, 232, 255, 1) 40%,#ffffff 60%);
+  border: none;
+  box-shadow: 0 0 28.3px .94px rgba(0, 0, 0, 0.05);
+
+}
+
+
+
+.cart-padding{
+  padding: 10px 0;
+}
+
+
+.arrow{
+  justify-content: center;
 }
 .arow-div{
     width: 60px;
@@ -117,6 +175,10 @@
     margin: 60px 0;
     border: none;
 
+}
+
+.arow-div:hover{
+  background-color: #05D4DF;
 }
 
 
@@ -161,5 +223,20 @@
         margin: 0px;
         text-align: center;
     }
-    
+
+    /* Standard Curriculum */
+
+    .curriculum-cart{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .curriculum-cart-details2{
+      margin: 0 0;
+    }
+    .arrow{
+      display: none;
+    }
+    .standard-header{
+      text-align: center;
+    }
   }
