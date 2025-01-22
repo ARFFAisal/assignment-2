@@ -309,7 +309,7 @@
       display: none;
     }
     .hidden-cart{
-      display: b;
+      display: block;
     }
     .cart{
       transform: translate(10px,-20px);
