@@ -333,6 +333,10 @@ footer{
 
     /* banner */
 
+    .banner-text h1{
+      font-size: 2rem;
+  }
+
     .banner{
         flex-direction: column-reverse;
     }
@@ -359,6 +363,7 @@ footer{
     }
     .standard-header{
       text-align: center;
+      font-size: 1.6rem;
     }
 
     /* stories section----------- */
