@@ -97,6 +97,13 @@
     display: none;
   }
 
+  /* Marquee style */
+
+  marquee{
+    background-color: #05D4DF;
+    height: 30px;
+  }
+
   /* Banner styles */
   .banner{
     align-items: center;
