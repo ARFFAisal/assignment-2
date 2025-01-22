@@ -13,15 +13,11 @@
         linear-gradient(to top, rgba(255, 228, 181, 1) 1.2rem,#ffffff 60%)
     ;
   }
-  .header{
+  .header, .curriculumm, .stories{
     max-width: 1160px;
     margin: 0 auto;
   }
-  main{
-    max-width: 1160px;
-    margin: 0 auto;
-
-  }
+  
   
   /* shared style */
   .display-flex{
@@ -246,6 +242,42 @@
   padding-top: 80px;
 }
 
+/* Footer styles section--------------- */
+
+footer{
+  background-color: rgba(1, 172, 253, 1);
+  margin-top: 60px;
+}
+
+
+.kid-icon{
+  
+  align-items: center;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+}
+.footer-width{
+  max-width: 1080px;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  padding:  40px 0;
+}
+  
+
+.secondpart{
+  display: flex;
+  justify-content: space-between;
+}
+.about  li{
+  list-style: none;
+}
+.about  li a{
+  text-decoration: none;
+}
+
   /* Responsive for Mobile */
 
   @media screen and (max-width: 576px) {
@@ -312,12 +344,9 @@
       display: block;
     }
     .cart{
-      transform: translate(10px,-20px);
+      transform: translate(8px,-20px);
     }
-    .cart-small{
-      gap:8px;
-      
-    }
+    
     .primary-button{
       width: 120px;
       height: 30px;
@@ -326,10 +355,17 @@
       color: white;
       border-radius: 10px;
     }
-    .img-radius{
-      width: 100%;
-      
+    /* footer responsive */
+
+    .footer-width{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding-left: 10px;
     }
-    
+    .secondpart{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      padding-left: 10px;
+    }
     
   }
